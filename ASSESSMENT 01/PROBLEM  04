@@ -1,0 +1,11 @@
+//Get a number from the user,divide the number by 6,and print the result
+#include<stdio.h>
+int main()
+{
+    int a,Result;
+    printf("Enter a Number:");
+    scanf("%d",&a);
+    Result=a/6;
+    printf("%d",Result);
+    return 0;
+}

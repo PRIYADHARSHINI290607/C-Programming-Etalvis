@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,d1,d2,d3,d4,Reverse;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    d1=(a/1000);
+    d2=(a/100)%10;
+    d3=(a/10)%10;
+    d4=(a%10);
+    Reverse=(d1*1000)+(d2*100)+(d4*10)+d3;
+    printf("%d",Reverse);
+    return 0;
+}

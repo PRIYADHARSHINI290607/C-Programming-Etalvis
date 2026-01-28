@@ -1,0 +1,11 @@
+//Get a three-digit number from the user and print the sum of the digit
+#include<stdio.h>
+int main()
+{
+    int a,Result;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    Result=(a%10)+((a/10)%10)+(a/100);
+    printf("%d",Result);
+    return 0;
+}

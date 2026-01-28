@@ -1,0 +1,11 @@
+//Get a three-digit number from the user and print the hundred's digit
+#include<stdio.h>
+int main()
+{
+    int a,Result;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    Result=a/100;
+    printf("%d",Result);
+    return 0;
+}

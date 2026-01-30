@@ -1,0 +1,12 @@
+//Get a two-digit number  from the user and subtract 5 from that number if the sum of the digits of the number is odd,then print the result .Dont use"if
+#include<stdio.h>
+int main()
+{
+    int a,d1,Result;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    d1=(a/10)+(a%10);
+    Result=a-5*(d1%2);
+    printf("%d",Result);
+    return 0;
+}

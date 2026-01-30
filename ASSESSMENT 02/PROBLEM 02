@@ -1,0 +1,11 @@
+//Get a number from the user and check if the number not equals 50.if yes,then print 1,otherwise print 50
+#include<stdio.h>
+int main()
+{
+    int a,Result;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    Result=(a!=50)*1+(a==1)*0;
+    printf("%d",Result);
+    return 0;
+}

@@ -1,0 +1,13 @@
+//Get a two-digit number from the user and check if the digit 0 and digit 1 are  not identical.If yes,print 1;otherwise,print 0
+#include<stdio.h>
+int main()
+{
+    int a,d0,d1,Result;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    d0=(a%10);
+    d1=(a/10);
+    Result=(d0!=d1);
+    printf("%d",Result);
+    return 0;
+}

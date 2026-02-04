@@ -1,0 +1,17 @@
+//Get a four-digit number from the user and check if the  first 2 digit  and  last 2 digit are the same.If yes,then print"success",otherwise print"Failure"
+#include<stdio.h>
+int main()
+{
+    int a,d0,d1,d2,d3;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    d0=(a%10);
+    d1=(a/10)%10;
+    d2=(a/100)%10;
+    d3=(a/1000);
+    if(d3==d1 && d2==d0)
+    printf("Success");
+    else
+    printf("Failure");
+    return 0;
+}

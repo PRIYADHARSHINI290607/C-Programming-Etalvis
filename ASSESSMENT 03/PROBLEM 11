@@ -1,0 +1,15 @@
+//Get a two-digit number from the user and check if the digit 1 is less than or equal to digit 0 .If yes,then print"success",otherwise print"Failure"
+#include<stdio.h>
+int main()
+{
+    int a,d0,d1;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    d0=(a%10);
+    d1=(a/10)%10;
+    if(d0>=d1)
+    printf("Success");
+    else
+    printf("Failure");
+    return 0;
+}

@@ -1,0 +1,21 @@
+//write a loop program to print the two-digit even numbers,who's sum of digits are 6
+#include<stdio.h>
+int main()
+{
+    int a=10,d0,d1;
+    loop:if(a<100) 
+    {
+        d0=(a%10);
+        d1=(a/10);
+      if(a%2==0)  
+        {
+        if((d0+d1)==6)
+          {   
+           printf("%d\n",a);
+          }
+        }
+     a++;
+     goto loop;
+    }
+    return 0;
+}

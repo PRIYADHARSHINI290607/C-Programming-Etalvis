@@ -1,0 +1,25 @@
+//write a program to get a number from user print the total number of digits in that number
+#include<stdio.h>
+int main()
+{
+    int num,count=0;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    if(num<0)
+    {
+     num=-num;
+    }
+    loop: if(num>0)
+     {
+         num=num/10;
+         count++;
+         goto loop;
+     }
+    else
+    {
+    if(count==0)
+    count=1;
+    printf("%d",count);
+    }
+    return 0;
+}

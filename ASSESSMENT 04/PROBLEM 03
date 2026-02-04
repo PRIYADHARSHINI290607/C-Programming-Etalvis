@@ -1,0 +1,16 @@
+// write a loop program to print sum of 1 to 5 ,using if/else only.
+#include<stdio.h>
+int main()
+{
+    int a=1,sum=0;
+    loop:if(a<=5)
+    {
+     sum=sum+a;
+     a++;
+     goto loop;
+    }
+    else
+     printf("%d",sum);
+    
+     return 0;
+}

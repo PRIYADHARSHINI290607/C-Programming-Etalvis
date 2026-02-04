@@ -1,4 +1,5 @@
 //Get a four-digit number from the user and check if the  first 2 digit  and  last 2 digit are the same.If yes,then print"success",otherwise print"Failure"
+
 #include<stdio.h>
 int main()
 {

@@ -5,10 +5,10 @@ int main()
     int a=10,d0,d1;
     loop:if(a<100) 
     {
+     d0=(a%10);
+     d1=(a/10);
       if(a%2!=0)  
         {
-            d0=(a%10);
-            d1=(a/10);
         if((d0+d1)==7)
           {   
            printf("%d\n",a);
